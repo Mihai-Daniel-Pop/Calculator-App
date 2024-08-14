@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.configure(bg="#000000")
 root.title(" Calculator")
-root.iconbitmap('d:\G\Calc\calculator2.ico')
+root.iconbitmap('.\calculator2.ico')
 
 e = Entry(root, width=30, borderwidth=5, bg="#000000", fg="#FFFFFF")
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
